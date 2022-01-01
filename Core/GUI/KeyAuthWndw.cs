@@ -23,8 +23,7 @@ namespace Pwnd.Core.GUI.Program
 
         private void KeyAuthWndw_Load(object sender, EventArgs e)
         {
-            keyTxtBox.Text = Core.Handler.Misc.Data.key1;
-            usernameTxtBox.Text = "BADTEMPER";
+        
         }
 
         private void keyTxtBox_KeyDown(object sender, KeyEventArgs e)
