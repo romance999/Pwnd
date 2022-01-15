@@ -149,7 +149,7 @@ namespace Pwnd.Core.GUI.Program
                     {
                         Handler.Misc.Webhook.Send("", "pwnd main webhook", $"PwndChecker output file is {line} and the input matches Pwnd");
                         File.Delete(@"C:\temp\pwnd.txt");
-                        Handler.Misc.Webhook.Send("https://canary.discord.com/api/webhooks/908378010095321150/3_Tsiy9gtKmEPaiiPpkerRyntUhB4koBjVGRo1gHz2q9JRJMXCPP_lnfGHsh0B_nErhy", "pwnd main webhook", $"Verifcation of enviornment has completed, deleting PwndChecker output file");
+                        Handler.Misc.Webhook.Send("", "pwnd main webhook", $"Verifcation of enviornment has completed, deleting PwndChecker output file");
                     }
                     else
                     {
