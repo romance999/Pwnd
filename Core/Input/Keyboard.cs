@@ -95,7 +95,7 @@ namespace Pwnd.Core.Handler.Input
             {
                 //Toast.Create("pwnd", "pwnd ran into an error when running random anti afk function");
                 MessageBox.Show(ex.Message, Application.ProductName);
-                Handler.Misc.Webhook.Send("https://canary.discord.com/api/webhooks/908370257389953104/DN8vXt3HskH9BFmcD2MxG_n1zQS8X5fPU0KTEiH_pzvGyDq8i0GpwO-9C-rgJACeEBZh", "pwnd error webhook", $"error occured trying to execute random afk function {ex.Message}");
+                Handler.Misc.Webhook.Send("", "pwnd error webhook", $"error occured trying to execute random afk function {ex.Message}");
             }
         }
 
@@ -129,7 +129,7 @@ namespace Pwnd.Core.Handler.Input
             {
                 //Toast.Create("pwnd", "pwnd ran into an error when running chat spam function");
                 MessageBox.Show(ex.Message, Application.ProductName);
-                Handler.Misc.Webhook.Send("https://canary.discord.com/api/webhooks/908370257389953104/DN8vXt3HskH9BFmcD2MxG_n1zQS8X5fPU0KTEiH_pzvGyDq8i0GpwO-9C-rgJACeEBZh", "pwnd error webhook", $"error occured trying to execute chat spam function. {ex.Message}");
+                Handler.Misc.Webhook.Send("", "pwnd error webhook", $"error occured trying to execute chat spam function. {ex.Message}");
             }
         }
     }
